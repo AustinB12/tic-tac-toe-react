@@ -1,10 +1,11 @@
+import React from 'react'
 import './App.css'
-import { Game } from './Game'
+import { ReactComponent as Pic } from './GradBanner.svg'
 
 function App() {
   return (
     <div className="App">
-      <Game />
+      <Pic />
     </div>
   )
 }

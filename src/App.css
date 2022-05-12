@@ -112,3 +112,26 @@
   margin-left: 20px;
   min-width: 190px;
 }
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+svg #LeftBalloons {
+  animation: 3s linear slidein infinite;
+}
+
+svg #RightBalloons {
+  animation: 3s linear slidein infinite;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
